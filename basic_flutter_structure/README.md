@@ -13,9 +13,9 @@ A package to generate a base Flutter project structure. This package helps you q
 To use this package, add it as a dependency in your `pubspec.yaml` file.
 
 ```yaml
-```
 dependencies:
-  basic_flutter_structure: ^1.0.2
+  basic_flutter_structure: ^1.0.4
+```
 ## Usage
 
 To generate the basic structure of a Flutter project, use the `FlutterProjectGenerator.createBaseStructure` method.
