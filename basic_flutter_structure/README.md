@@ -13,9 +13,6 @@ A package to generate a base Flutter project structure. This package helps you q
 To use this package, add it as a dependency in your `pubspec.yaml` file.
 
 ```yaml
-dependencies:
-  basic_flutter_structure:
-    path: ../basic_flutter_structure
 ```
 
 ## Usage
@@ -54,5 +51,3 @@ For more information, please refer to the documentation or contact the package a
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-Cela devrait résoudre le problème et permettre la mise à jour des packages.
