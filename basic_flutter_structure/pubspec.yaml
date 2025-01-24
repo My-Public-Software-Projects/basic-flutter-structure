@@ -1,7 +1,7 @@
 name: basic_flutter_structure
-description: "A new Flutter package project."
-version: 0.0.1
-homepage:
+description: "A package to generate a base Flutter project structure."
+version: 1.0.0
+homepage: "https://github.com/My-Public-Software-Projects/basic-flutter-structure.git"
 
 environment:
   sdk: ^3.6.0
@@ -10,6 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  carousel_slider: ^5.0.0
+  fontresoft: ^0.0.5
+  another_flutter_splash_screen: ^1.2.1
+  cupertino_icons: ^1.0.8
 
 dev_dependencies:
   flutter_test:

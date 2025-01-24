@@ -1,39 +1,58 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Basic Flutter Structure
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A package to generate a base Flutter project structure. This package helps you quickly set up a new Flutter project with a predefined structure, including common directories and files.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Generates common directories and files for a Flutter project.
+- Includes helper files for themes, shared preferences, and more.
+- Provides a basic navigation setup.
 
-## Getting started
+## Getting Started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+To use this package, add it as a dependency in your `pubspec.yaml` file.
+
+```yaml
+dependencies:
+  basic_flutter_structure:
+    path: ../basic_flutter_structure
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+To generate the basic structure of a Flutter project, use the `FlutterProjectGenerator.createBaseStructure` method.
+
+## Example
+
+Here is an example of how to use this package:
 
 ```dart
-const like = 'sample';
+import 'package:basic_flutter_structure/basic_flutter_structure.dart';
+
+void main() {
+  FlutterProjectGenerator.createBaseStructure('path_to_your_project');
+}
 ```
 
-## Additional information
+## Example
+Here is an example of how to use this package:
+```import 'package:basic_flutter_structure/basic_flutter_structure.dart';
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+void main() {
+  // Specify the path where you want to create the project structure
+  String projectPath = 'path_to_your_project';
+  
+  // Generate the project structure
+  FlutterProjectGenerator.createBaseStructure(projectPath);
+}
+```
+
+## Additional Information
+
+For more information, please refer to the documentation or contact the package authors.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Cela devrait résoudre le problème et permettre la mise à jour des packages.
